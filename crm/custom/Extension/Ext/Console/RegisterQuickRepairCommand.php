@@ -5,7 +5,6 @@
 Sugarcrm\Sugarcrm\Console\CommandRegistry\CommandRegistry::getInstance()
     ->addCommands(
         array(
-            new Sugarcrm\Sugarcrm\custom\Console\Command\QuickRepairCommand(),
-            new Sugarcrm\Sugarcrm\custom\Console\Command\QuickFullRepairCommand()
+            new Sugarcrm\Sugarcrm\custom\Console\Command\QuickRepairCommand()
         )
     );
